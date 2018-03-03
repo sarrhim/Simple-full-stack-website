@@ -1,0 +1,426 @@
+@charset "utf-8";
+
+h2{font-size: 42px ;
+    text-align: left;
+	font-family: 'Montserrat', sans-serif;}
+body{
+  transition: all 1s ease;
+background: #eee;	
+padding:5px;
+color: #555555;
+font-family: 'Hind', sans-serif;
+}
+#Nav{background-color:rgb(255, 255, 255); margin:0; max-height: 50px;}
+#nav li{height: 50;}
+.page-scroll:hover {color:#037ff3;}
+.page-scroll
+{color:#333; font-family:'GothamBold';
+font-size:14px;
+font-weight:500;
+}
+header{
+background:url(../img/1.jpg)  ;
+padding:200px;
+height:820px;
+}
+.headerIn{
+	
+text-align:center; 
+ font: 700 60px "Montserrat",Arial,sans-serif; 
+}
+.btnHeader {
+ 
+	color:white;
+    border: 1px solid #3e4651 ;
+    font-size: 14px;
+    padding: 15px 25px;
+}
+.btnHeader:hover{color:#000;}
+
+.bloc3{
+	
+	padding:40px;
+	padding-top:50px;
+	height:300px;
+    background: url(../img/2back.png) no-repeat center center #037ff3;
+}
+.inputForm{
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+.btnForm{
+    width: 100%;
+    height: 50px;
+	font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+     border: 0px ;
+    color: #ffffff;
+    font-weight: 700;
+  
+  
+    background: url(../img/btn.png) no-repeat top left #037ff3 ;	
+}
+
+/* The Modaaaaaaaaaaaaaaaal (background) */
+ .modal {
+    top:0;
+    display: none; 
+    position: fixed; 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 4% auto; /* 4% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+/* Add Animation  to model*/
+@keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0px; opacity:1}
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    cursor: pointer;
+}
+
+
+.bloc4{ background:url(../img/world.png) fixed no-repeat ;
+ 		padding-top:40px;padding-bottom:50px;
+		background-size:cover;
+		}
+.imgTeam{
+	width: 200px;
+    height: 200px;
+	text-align:center;
+	border-radius: 100%;
+    border: 6px solid #ddd;
+	}
+.teamItem{
+text-align:center;
+text-transform: uppercase;	
+color: #555555;
+font-size: 15px;
+
+}
+.teamName{
+	font-size: 18px;
+    margin-top: 25px;
+    font-weight: bold;
+    margin: 30px 0 5px;
+}
+
+.slideshow{
+
+
+padding:100px 15px 20px 15px ;
+}
+.sugg03{
+
+height:450px;
+padding:100px 15px 20px 15px ;
+background: vidbackground;
+background-size: cover;
+}
+#vidbackground
+{
+	position: relative;
+	
+
+    top: 50%;
+
+    left: 50%;
+
+    min-width: 100%;
+
+    min-height: 100%;
+
+    width: auto;
+
+    height: auto;
+
+    -webkit-transform: translateX(-50%) translateY(-50%);
+
+    transform: translateX(-50%) translateY(-50%);
+}
+.sugg04{
+
+min-height:550px;
+padding:100px 50px 20px 50px ;
+background: url(../img/for3.gif)  ; 
+background-size: cover;
+}
+.sugg02
+{
+	min-height:550px;
+padding:100px 50px 20px 50px ;
+	background:url(../img/hi.jpg);
+	background-size:cover;
+}
+.titreshodow{color: white; text-shadow: 2px 2px 4px #000000;}
+
+
+ p{font-family: 'open sans';
+    font-size: 19px;
+    line-height: 32px;
+    margin-bottom: 40px;}
+.descriptionLang {
+padding:90px 0 0 50px !important;}
+	
+.float {transition:all 2s;}
+
+.float:hover {
+  transform:translate(0px,-10px);
+}
+
+.titleSugg{    
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin:0 auto;	
+    color:white;}
+
+.all{    display:none; }
+
+
+.footer2{
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    padding: 50px;
+    background: #2d2d2d url(../img/footerbg.png)  center center no-repeat;
+}
+.cadre{    
+    padding: 25px;    font: inherit;
+    margin:30px;
+        font-weight: 700;
+    border: 4px solid #82c8bc; }
+.cadre2{    
+    padding: 25px;    font: inherit;
+    margin:30px;
+        font-weight: 700;
+    border-radius: 10px;
+    border: 4px double #ffa190; }
+    
+ .cadre3{    
+    padding: 25px;    font: inherit;
+    margin:30px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 3px dashed #132f7e;
+    border-style: groove;
+     }   
+
+img{max-width: 100%;max-height: 250px;}
+                  
+.picture-wrapper:hover .find {
+  opacity: 1;
+  transform: scale(1); 
+}
+ .find {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  opacity: 0;
+ transform: scale(0.7); 
+  transition: all 0.4s ;
+}
+ .find-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  color: #ffffff;
+}
+
+}
+
+.content{   
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  margin-top: -20px;
+}
+
+.picture img {   
+  width: 100%;
+}
+
+
+
+/* Circle */
+.tuto {
+    transition: all 2s ease;
+}
+ 
+.tuto:hover {
+  border-radius: 30%;
+ transform: rotate(10deg);
+ opacity: 0.6;
+
+}
+.user
+{
+  width: 40px;
+  height: 40px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+
+#slide {
+  display: none;
+}
+.slideright
+{
+    z-index: 1;
+    background-color: #e1e8ed;
+}
+.sidebar {
+  transition: all 1s ease;
+  position:fixed;
+  right: -30px;
+  width: 0px;
+  padding: 20px;
+  background: #e1e8ed;
+  height: 100%;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  height: auto;
+}
+
+.sidebar li {
+  color: blue;
+  font-family: arial;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 40px;
+  text-align: center;
+
+  
+}
+
+#slide:checked + .sidebar {
+  width: 250px;
+}
+.logout{font: 20px fantasy ;    transition: all 1s ease;}
+.logout:hover{   transform:translateX(20px); }
+.centered{text-align: center;}
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1020px;
+ 
+  max-height:700px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-weight:400;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade1 {
+ 
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
